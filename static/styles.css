@@ -1,0 +1,103 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #6d9bf1, #92a8d1);
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Header */
+header {
+    background-color: #4a90e2;
+    color: white;
+    width: 100%;
+    padding: 15px 0;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+/* Main Container */
+.container {
+    background: white;
+    width: 90%;
+    max-width: 600px;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Form Styles */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form label {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+form input[type="file"] {
+    margin-bottom: 20px;
+    font-size: 1rem;
+    padding: 5px;
+}
+
+button {
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #357ABD;
+}
+
+/* Video Section */
+video {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Link Styles */
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    background-color: #4a90e2;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+a:hover {
+    background-color: #357ABD;
+}
+
+/* Footer */
+footer {
+    margin-top: auto;
+    padding: 10px;
+    background-color: #4a90e2;
+    color: white;
+    width: 100%;
+    text-align: center;
+    font-size: 0.9rem;
+}

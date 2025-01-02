@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Processed Video</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <header>
+        Processed Football Video
+    </header>
+    <div class="container">
+        <h2>Here is your processed video:</h2>
+        <video controls poster="{{ url_for('static', filename='screenshot.png') }}">
+            <source src="{{ video_url }}" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <a href="{{ video_url }}" download>Download Video</a>
+        <br>
+        <br>
+        <br>
+        <a href="/">Process Another Video</a>
+    </div>
+    <footer>
+        © 2024 Football Analysis Team
+    </footer>
+</body>
+</html>
